@@ -1,0 +1,49 @@
+/* large-device-responsive */
+@media screen and (max-width:992px) {
+    .top-section {
+        width: 70%;
+    }
+
+    .top-player-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medeium-device-responsive */
+@media screen and (max-width:768px) {
+    h3 {
+        font-size: 16px;
+    }
+
+    .top-section {
+        width: 80%;
+    }
+
+    .top-player-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* small-device-responsive */
+
+@media screen and (max-width:576px) {
+    h2{
+        text-align: center;
+    }
+    h3 {
+        font-size: 16px;
+    }
+
+    .top-section {
+        width: 90%;
+    }
+
+    .top-player-container {
+        grid-template-columns: 1fr;
+    }
+
+    .player{
+        justify-self:center;
+        width: 200px;
+    }
+}
