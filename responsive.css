@@ -7,8 +7,16 @@
     .top-player-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .blog-img img{
+        width: 160px;
+        height: 100px;
+    }
     .blog-text h3{
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blog-text p{
+        font-size: 14px;
     }
 }
 
@@ -24,6 +32,15 @@
 
     .top-player-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .top-blog-container{
+        grid-template-columns: 1fr;
+    }
+    .blog-text h3{
+        font-size: 20px;
+    }
+    .blog-text p{
+        font-size: 16px;
     }
 }
 
@@ -49,4 +66,18 @@
         justify-self:center;
         width: 200px;
     }
+    .blog-img img{
+        width: 160px;
+        height: 100px;
+    }
+    .blog-text h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .blog-text p{
+        font-size: 12px;
+    }
+    /* .blog{
+        display: block;
+    } */
 }
