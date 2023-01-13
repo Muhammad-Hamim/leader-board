@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* imported font */
 
 /* font-family: 'Inter', sans-serif;
@@ -124,7 +125,90 @@ hr {
     line-height: 24px;
     color: #9F9F9F;
 }
-.blog-text p a{
+
+.blog-text p a {
     text-decoration: none;
     color: #562EFF;
+}
+
+/* top-blog-section-style-end */
+/* top-section-style-end */
+/* bottom-section-style-start */
+.bottom-section {
+    background-color: #FFFFFF;
+    width: 57%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.212);
+    padding: 33px;
+    margin: 22px auto;
+}
+
+.courses-container {
+    display: grid;
+    margin-top: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.course {
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+
+.course-img img {
+    margin-bottom: 16px;
+    width: 330px;
+    height: 150px;
+    px;
+}
+
+.course-content h3 {
+    /* width: 250px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.course-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #ED6B4F;
+    margin: 13px 0;
+}
+
+.course-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-rating i{
+    color: #FFC014;
+}
+.course-rating span {
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #A2A2A2;
+}
+
+.course-duration {
+    background: #FFE4E8;
+    border-radius: 24px;
+    padding: 10px 36px;
+}
+
+.course-duration p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF4A60;
 }
