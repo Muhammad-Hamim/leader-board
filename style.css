@@ -82,9 +82,49 @@ hr {
     width: 56px;
     height: 56px;
 }
+
 /* top-player-section-style-end */
 /* top-blog-section-style-start */
-.blog-img img{
+.top-blog {
+    padding: 30px 0 0 0;
+}
+
+.top-blog-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.blog-img img {
     width: 177px;
     height: 117px;
+}
+
+.blog-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.blog-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.blog-text p a{
+    text-decoration: none;
+    color: #562EFF;
 }

@@ -1,11 +1,14 @@
 /* large-device-responsive */
 @media screen and (max-width:992px) {
     .top-section {
-        width: 70%;
+        width: 80%;
     }
 
     .top-player-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-text h3{
+        font-size: 18px;
     }
 }
 
