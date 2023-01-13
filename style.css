@@ -164,21 +164,19 @@ hr {
 .course-content h3 {
     /* width: 250px; */
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 25px;
     color: #1E1E1E;
 }
-
-.course-content p {
+.course-content p{
+    margin: 13px 0;
+}
+.course-content p a{
     font-family: 'Roboto';
-    font-style: normal;
+    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 17px;
     color: #ED6B4F;
-    margin: 13px 0;
 }
 
 .course-detail {
@@ -191,7 +189,7 @@ hr {
 }
 .course-rating i:nth-child(5){
     color: #AEAEAE;
-    
+
 }
 .course-rating span {
     margin-left: 10px;

@@ -1,6 +1,72 @@
+/* extra-extra-large-device */
+@media screen and (max-width:1400px) {
+    .top-section,
+    .bottom-section {
+        width: 70%;
+    }
+    .course-content h3 {
+        font-size: 22px;
+    }
+    .course-detail{
+        flex-direction: row;
+        align-items: center;
+        /* row-gap: 20px; */
+    }
+    .course-rating i{
+        font-size: 13px;
+    }
+    .course-rating span {
+        font-size: 14px;
+        margin-left: 4px;
+    }
+    
+    .course-duration {
+        padding: 8px 18px;
+    }
+    
+    .course-duration p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+}
+/* extra-large-device */
+@media screen and (max-width:1200px){
+    .top-section,
+    .bottom-section {
+        width: 80%;
+    }
+    .course-content h3 {
+        font-size: 22px;
+    }
+    .course-detail{
+        flex-direction: row;
+        align-items: center;
+        /* row-gap: 20px; */
+    }
+    .course-rating i{
+        font-size: 13px;
+    }
+    .course-rating span {
+        font-size: 14px;
+        margin-left: 4px;
+    }
+    
+    .course-duration {
+        padding: 8px 18px;
+    }
+    
+    .course-duration p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+
 /* large-device-responsive */
 @media screen and (max-width:992px) {
-    .top-section {
+    .top-section,
+    .bottom-section {
         width: 80%;
     }
 
@@ -18,6 +84,32 @@
     .blog-text p{
         font-size: 14px;
     }
+    .courses-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* .course-content h3 {
+        font-size: 22px;
+    } */
+    .course-detail{
+        flex-direction: row;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .course-rating i{
+        font-size: 15px;
+    }
+    .course-rating span {
+        font-size: 16px;
+    }
+    
+    .course-duration {
+        padding: 8px 25px;
+    }
+    
+    .course-duration p {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 /* Medeium-device-responsive */
@@ -26,7 +118,8 @@
         font-size: 16px;
     }
 
-    .top-section {
+    .top-section,
+    .bottom-section{
         width: 80%;
     }
 
@@ -42,6 +135,9 @@
     .blog-text p{
         font-size: 16px;
     }
+    .courses-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* small-device-responsive */
@@ -54,7 +150,8 @@
         font-size: 16px;
     }
 
-    .top-section {
+    .top-section,
+    .bottom-section{
         width: 90%;
     }
 
