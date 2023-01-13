@@ -158,9 +158,7 @@ hr {
 
 .course-img img {
     margin-bottom: 16px;
-    width: 330px;
-    height: 150px;
-    px;
+    width:100%;
 }
 
 .course-content h3 {
@@ -190,6 +188,10 @@ hr {
 }
 .course-rating i{
     color: #FFC014;
+}
+.course-rating i:nth-child(5){
+    color: #AEAEAE;
+    
 }
 .course-rating span {
     margin-left: 10px;
